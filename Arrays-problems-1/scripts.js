@@ -23,3 +23,7 @@ const getArrItems = function (array, num) {
 		return "We only have " + array.length + " items. Please try again.";
 	
 	return array.slice(0, num);
+  
+}
+  
+  console.log(getArrItems(fruitsArray, 2));

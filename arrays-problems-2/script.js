@@ -12,7 +12,10 @@ const cars = ["Toyota", "Jeep", "Honda", "Volvo"];
 let text = cars.join();
 
 // declare my function.
-function joinElement(cars) {
+function joinElement(arr) {
+	 let text = arr.join();
 	return text;
 
 }
+
+//console.log(joinElement(cars));

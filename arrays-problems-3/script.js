@@ -6,11 +6,13 @@ const myNumArr = [3,4,-2,13,8,43,-5,22,100];
 // using the Array sort() method and comparing function to sort it 
 // from greatest to lowest.
 
- let list = myNumArr.sort((a,b) => b - a );
+ 
 
-//console.log(myNumArr);
+console.log(myNumArr);
 
- function sortedArr(myNumArr) {
+ function sortedArr(arr) {
+ 	let list = arr.sort((a,b) => b - a );
  	return list;
 
  }
+console.log(sortedArr(myNumArr));
