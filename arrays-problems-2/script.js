@@ -9,11 +9,11 @@ const cars = ["Toyota", "Jeep", "Honda", "Volvo"];
 
 //create a variable to store the elements after using the join() method.
 // the default separator for join() is Comma. 
-let text = cars.join();
+
 
 // declare my function.
 function joinElement(arr) {
-	 let text = arr.join();
+	 let text = arr.join("-");
 	return text;
 
 }
